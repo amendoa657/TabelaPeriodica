@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.element-card {
+    background-color: #8fdf8f; /* Verde claro */
+    border-radius: 15px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.atomic-number {
+    background-color: #1e1e1e; /* Fundo escuro */
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+}
+
+.symbol {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.atomic-weight {
+    font-size: 14px;
+    color: #555; /* Cor mais escura */
+}
+
+.element-name {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #333; /* Cor mais escura */
+}

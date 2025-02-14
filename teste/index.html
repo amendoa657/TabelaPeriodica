@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Periódica</title>
+    <style>
+        body {
+            background-color: #181818;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .table {
+            display: grid;
+            grid-template-columns: repeat(18, 60px);
+            gap: 5px;
+        }
+        .element {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .metal { background-color: #6fbf73; }
+        .nao-metal { background-color: #76a9fa; }
+        .gas-nobre { background-color: #e4a93c; }
+        .lantanideo, .actinideo { background-color: #99cc66; }
+        .vazio { visibility: hidden; }
+    </style>
+</head>
+<body>
+    <div class="table">
+        <div class="element nao-metal">H</div>
+        <div class="vazio"></div><div class="vazio" style="grid-column: 18;"></div>
+        <div class="element gas-nobre">He</div>
+        
+        <div class="element metal">Li</div>
+        <div class="element metal">Be</div>
+        <div class="vazio" style="grid-column: 13;"></div>
+        <div class="element nao-metal">B</div>
+        <div class="element nao-metal">C</div>
+        <div class="element nao-metal">N</div>
+        <div class="element nao-metal">O</div>
+        <div class="element nao-metal">F</div>
+        <div class="element gas-nobre">Ne</div>
+        
+        <div class="element metal">Na</div>
+        <div class="element metal">Mg</div>
+        <div class="vazio" style="grid-column: 13;"></div>
+        <div class="element metal">Al</div>
+        <div class="element nao-metal">Si</div>
+        <div class="element nao-metal">P</div>
+        <div class="element nao-metal">S</div>
+        <div class="element nao-metal">Cl</div>
+        <div class="element gas-nobre">Ar</div>
+        
+        <!-- Adicione o restante dos elementos seguindo esse padrão -->
+    </div>
+</body>
+</html>
