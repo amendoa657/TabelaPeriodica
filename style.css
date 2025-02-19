@@ -2,7 +2,6 @@ body {
     font-size: 15px;
     margin-left: 1%;
     margin-right: 1%;
-
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -34,6 +33,15 @@ table {
 
 p,div,h3 {
     margin: 0%;
+}
+
+.infonmp {
+    top: 1%;
+    left: 50%;
+    right: 50%;
+    place-items: center;
+    position: absolute;
+    opacity: 0%;
 }
 
 
@@ -120,3 +128,8 @@ th:not(.colspan) {
     margin-right: 10px;
 }
 
+.nmp:hover .infonmp {
+    opacity: 100%;
+    transition: 0.5s;
+
+}
