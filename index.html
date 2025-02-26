@@ -5,8 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
+    <div id="info">
+        <p class="atomicoinfo">1</p>
+        <h3 id = "oi">H</h3>
+        <div>Hidrogênio</div>
+        <p>1,008</p>
+    </div>
+
+<div id="legendatop">
+        <div style="display: flex; justify-content: flex-start;">
+            <div style="width: 100%; background-color: azure;">
+                <div class="elementoLegenda" id="metal">
+                    <h3>Metal</h3>
+                </div>
+                <div style="display: flex;">
+                    <div style="border-bottom-left-radius: 1rem;" class="elementoLegenda ma elementosInferiores" id="metalAlcalino">
+                        <h3>Metal Alcalino</h3>
+                    </div>
+
+                    <div class="elementoLegenda mat elementosInferiores" id="metalAlcalinoter">
+                        <h3>Metal <br>Alcalinoterroso</h3>
+                    </div>
+                    <div>
+                        <div class="elementoLegenda la elementosInferioresIsolados" id="lantanideo">
+                            <h3>Lantanídeo</h3>
+                        </div>
+
+                        <div class="elementoLegenda ac elementosInferioresIsolados" id="actinideo">
+                            <h3>Actinideo</h3>
+                        </div>
+                    </div>
+                    <div class="elementoLegenda mt elementosInferiores" id="metalTransicao">
+                        <h3>Metal de<br>transicao</h3>
+                    </div>
+                    <div class="elementoLegenda mpt elementosInferiores" id="metalPosTransicao">
+                        <h3>Metais pos<br>transicao</h3>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="elementoLegenda sm" id="semiMetal">
+                <h3>Semi metal</h3>
+            </div>
+
+            <div style="width: 60%; background-color: azure;">
+                <div class="elementoLegenda" id="naoMetal">
+                    <h3>Nao Metal</h3>
+                </div>
+
+                <div style="display: flex;">
+                    <div class="elementoLegenda nmp elementosInferiores" id="naoMetais">
+                        <h3>Nao Metais</h3>
+                    </div>
+
+                    <div class="elementoLegenda nmd elementosInferiores" id="halogenio">
+                        <h3>Halogenios</h3>
+                    </div>
+
+                    <div style="border-bottom-right-radius: 1rem;" class="elementoLegenda gs elementosInferiores" id="gasNobre">
+                        <h3>Gases Nobres</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <table> 
         <tr>
@@ -15,14 +81,9 @@
                 <h3>H</h3>
                 <div>Hidrogênio</div>
                 <p>1,008</p>
-                <div class="infonmp">
-                    <p>1</p>
-                    <h3>Html</h3>
-                    <div>é uma desgraça</div>
-                    <p>1,008</p>
-                </div>
+                
             </th>
-            <th class="colspan info" colspan="16">
+            <th class="colspan" colspan="16">
             </th>
             <th class="linha gs">
                 <p>2</p>
@@ -79,36 +140,18 @@
                 <h3>C</h3>
                 <div>Carbono</div>
                 <p>12,011</p>
-                <div class="infonmp">
-                    <p>1</p>
-                    <h3>Html</h3>
-                    <div>é uma desgraça</div>
-                    <p>1,008</p>
-                </div>
             </th>
             <th class="linha nmp">
                 <p>7</p>
                 <h3>N</h3>
                 <div>Nitrogênio</div>
                 <p>14,007</p>
-                <div class="infonmp">
-                    <p>1</p>
-                    <h3>Html</h3>
-                    <div>é uma desgraça</div>
-                    <p>1,008</p>
-                </div>
             </th>
             <th class="linha nmp">
                 <p>8</p>
                 <h3>O</h3>
                 <div>Oxigênio</div>
                 <p>15,999</p>
-                <div class="infonmp">
-                    <p>1</p>
-                    <h3>Html</h3>
-                    <div>é uma desgraça</div>
-                    <p>1,008</p>
-                </div>
             </th>
             <th class="linha nmd">
                 <p>9</p>
@@ -820,6 +863,6 @@
 
 
     </table>
-
+    
 </body>
 </html>

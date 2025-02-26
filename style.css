@@ -35,14 +35,39 @@ p,div,h3 {
     margin: 0%;
 }
 
-.infonmp {
-    top: 1%;
-    left: 50%;
-    right: 50%;
+#info {
+    display: grid;
+    font-size: 40px;
+    top: 71%;
+    left: 1%;
+    right: 0%;
     place-items: center;
     position: absolute;
     opacity: 0%;
+    width: 15.8%;
+    height: 27.5vh;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: opacity 0.2s ease;
 }
+
+#legendatop {
+    top: 1%;
+    left: 28.7%;
+    position: absolute;
+    width: 30.8%;
+    height: 28%;
+    transition: 0.2s;
+    border-radius: 1.2rem;
+    margin: 0%;
+}
+
+.linha {
+    transition: 0.2s;
+    
+}
+
+
 
 
 .h {
@@ -108,6 +133,7 @@ th:not(.colspan) {
     justify-content:space-around;
     display: flex;
     text-align: center;
+    opacity: 0%;
 }
 
 .topico {
@@ -128,8 +154,64 @@ th:not(.colspan) {
     margin-right: 10px;
 }
 
-.nmp:hover .infonmp {
-    opacity: 100%;
-    transition: 0.5s;
 
+
+#metal {
+    background-color: #b0b0b0;
+    width: 99%;;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1rem;
+
+}
+
+#naoMetal {
+    background-color: #b0b0b0;
+    width: 99%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 1rem;
+
+}
+
+#semiMetal {
+    writing-mode: vertical-rl; /* Texto na vertical, da direita para a esquerda */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    height: 28.1%;
+}
+
+#semiMetal h3 {
+    margin-top: 3%;
+}
+
+.elementoLegenda {
+    font-size: 15px;
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.elementosInferiores {
+    writing-mode: vertical-rl; /* Texto na vertical, da direita para a esquerda */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    height: 23.4%;
+}
+
+.elementosInferiores h3 {
+    margin-top: 3%;
+}
+
+.elementosInferioresIsolados {
+    height: 48.3%;
+}
+
+#oi {
+    background-color: #E98293;
 }
